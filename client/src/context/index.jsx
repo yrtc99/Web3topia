@@ -4,7 +4,6 @@ import { useAddress, useContract, useMetamask, useContractWrite } from '@thirdwe
 import { ethers } from 'ethers';
 import { EditionMetadataWithOwnerOutputSchema } from '@thirdweb-dev/sdk';
 
-//store web3 logic , wrap app with this, so every page component can use it
 const StateContext = createContext();
 
 export const StateContextProvider = ({ children }) => {
